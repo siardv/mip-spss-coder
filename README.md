@@ -1,3 +1,7 @@
+> [!WARNING]
+> **ARCHIVED AND UNMAINTAINED**
+> This code is no longer maintained and remains public purely as a historical portfolio archive.
+
 
 This repository contains an R-script to semi-automatically code answers to the question "*What do you think are the most important problems in our country, today?*" into one of several pre-defined categories. The script compares each answer against a set of fixed keywords and pre-coded answers from earlier waves using exact and fuzzy matching. If SPSS is one's primary tool and gets preference over R, there's a function to generate matching SPSS recode syntax.
 
@@ -13,7 +17,7 @@ Load functions `xlsx` and `xlsx_to_sps`:
 install.packages("xlsx")
 library(xlsx)
 
-xlsx_to_sps <- eval(parse(text = source("https://raw.githubusercontent.com/siardv/MIP/main/xlsx_to_sps.R")[1]))
+xlsx_to_sps <- eval(parse(text = source("https://raw.githubusercontent.com/siardv/mip-spss-coder/main/xlsx_to_sps.R")[1]))
 ```
 | Arguments    	|                                                                             	|
 |--------------	|-----------------------------------------------------------------------------	|
